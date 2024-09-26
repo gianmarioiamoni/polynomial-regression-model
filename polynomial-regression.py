@@ -43,5 +43,5 @@ plt.show()
 # We use the polynomial regressor
 # the input will be the matrix of several features at different powers
 # the input value is a 2D array containing 6.5
-lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
+print(lin_reg_2.predict(poly_reg.fit_transform([[6.5]])))
 
